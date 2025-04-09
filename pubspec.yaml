@@ -1,21 +1,23 @@
-name: flutter_evconnect
-description: "A new Flutter project."
+name: bms1
+description: A BMS monitoring application.
 publish_to: 'none'
-version: 0.1.0
+version: 1.0.0+1
 
 environment:
-  sdk: ^3.7.2
+  sdk: '>=3.1.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
-  flutter_blue_plus: ^1.31.16
-  permission_handler: ^11.3.0
+  cupertino_icons: ^1.0.2
+  flutter_blue_plus: ^1.32.12
+  provider: ^6.0.5
+  permission_handler: ^11.4.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^5.0.0
+  flutter_lints: ^2.0.0
 
 flutter:
   uses-material-design: true

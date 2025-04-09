@@ -5,15 +5,19 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Flutter Evconnect</string>
+	<string>Bms1</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+    <string>Cần kết nối Bluetooth để làm việc với thiết bị BMS</string>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>Cần kết nối Bluetooth để làm việc với thiết bị BMS</string>
 	<key>CFBundleIdentifier</key>
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>flutter_evconnect</string>
+	<string>bms1</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
